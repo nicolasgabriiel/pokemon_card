@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagem-container {
+    width: 100%; /* Defina a largura desejada para o contêiner */
+    height: 50vh; /* Defina a altura desejada para o contêiner */
+    overflow: hidden; /* Garante que qualquer conteúdo adicional seja cortado */
+}
+
+.imagem-container img {
+    width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+    height: 100%; /* Garante que a imagem ocupe 100% da altura do contêiner */
+    object-fit: cover; /* Mantém a proporção da imagem sem esticá-la */
+}
+.carousel-indicators > button{
+    background-color: rgba;
+    padding: 200px;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+.container h1{
+    text-align: center;
+    margin: 50px 0;
+    font-weight: bold;
+    font-style: italic;
+}

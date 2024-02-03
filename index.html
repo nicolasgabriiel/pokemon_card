@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Cards</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+    <!-- CARROSSEL -->
+    <div class="container container-carousel">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <div class="imagem-container"> <img class="image-pokemon d-block w-100"
+                            src="https://c4.wallpaperflare.com/wallpaper/677/922/425/pokemon-pokemon-red-and-blue-blastoise-pokemon-bulbasaur-pokemon-wallpaper-preview.jpg">
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <div class="imagem-container"> <img class="image-pokemon d-block w-100"
+                            src="https://c4.wallpaperflare.com/wallpaper/458/1014/382/pokemon-bulbasaur-squirtle-charmander-wallpaper-preview.jpg">
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <div class="imagem-container"> <img class="image-pokemon d-block w-100"
+                            src="https://c4.wallpaperflare.com/wallpaper/789/129/220/pokemon-blastoise-pokemon-bulbasaur-pokemon-charizard-pokemon-wallpaper-preview.jpg">
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <div class="imagem-container"> <img class="image-pokemon d-block w-100"
+                            src="https://wallpapercave.com/wp/MWb4ZQT.jpg"></div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+    </div>
+    <!-- CARROSSEL -->
+    <div class="container">
+        <h1>POKEMON CARDS</h1>
+        <ul class="row">
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card1" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card1" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card1" data-bs-slide="next" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Bulbasaur</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card2" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/2.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card2" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card2" data-bs-slide="next" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Ivysaur</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card3" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item ">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/3.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card3" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card3" data-bs-slide="next" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Venusaur</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card4" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item ">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/4.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card4" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card4" data-bs-slide="next" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Charmander</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card5" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item ">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/5.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card5" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card5" data-bs-slide="next" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Charmeleon</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card6" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item ">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/6.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card6" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card6" data-bs-slide="next" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Charizard</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card7" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item ">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/7.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card7" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card7" data-bs-slide="next" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Squirtle</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card8" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item ">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/8.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card8" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card8" data-bs-slide="next" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Wartortle</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="col-lg-4 col-md-6  col-sm-12">
+                <div class="card">
+                    <div class="container container-carousel">
+                        <div id="carousel-card-9" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="20000" class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png" />
+                                </div>
+                                <div data-bs-interval="20000" class="carousel-item ">
+                                    <img class="d-block w-100"
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/9.png" />
+                                </div>
+                            </div>
+                            <button data-bs-target="#carousel-card-9" data-bs-slide="prev" class="carousel-control-prev"
+                                type="button">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button data-bs-target="#carousel-card-9" data-bs-slide="next"
+                                class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Blastoise</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae molestias ducimus labore,
+                            tempore fugit voluptatem?
+                        </p>
+                        <a href="#" class="btn btn-primary w-100">Ver Pokemon</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
